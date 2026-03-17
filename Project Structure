@@ -1,0 +1,14 @@
+ai-financial-analyzer/
+├── app/
+│   ├── main.py                 # FastAPI backend
+│   ├── rag_pipeline.py         # LangChain RAG logic
+│   └── services/
+│       └── financial_extractor.py  # Metric extraction
+├── frontend/
+│   └── app.py                  # Streamlit UI
+├── data/                        # Uploaded files (gitignored)
+├── assets/                       # Images for README
+├── requirements.txt
+├── Dockerfile
+├── startup.sh
+└── README.md
